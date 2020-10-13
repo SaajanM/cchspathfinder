@@ -1,0 +1,17 @@
+.bigButton {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  width: 50%;
+  height: 48px;
+  border-radius: 10vw;
+  position: relative;
+  left: 22.5%;
+  justify-content: center;
+  background-color: #002049;
+  cursor: pointer;
+  user-select: none;
+}
+.buttonLabel {
+  color: #f0f0f0;
+}

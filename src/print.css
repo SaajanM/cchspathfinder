@@ -1,0 +1,30 @@
+@media print {
+  :not(.print) {
+    visibility: hidden !important;
+  }
+  .print {
+    visibility: initial !important;
+  }
+  .print * {
+    visibility: initial !important;
+  }
+  .print canvas {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100vw !important;
+    height: 77.3vw !important;
+    transform: none !important;
+  }
+  .print img {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100vw !important;
+    height: 77.3vw !important;
+    transform: none !important;
+  }
+  .print > div > div {
+    transform: none !important;
+  }
+}

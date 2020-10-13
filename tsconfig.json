@@ -1,0 +1,17 @@
+{
+    "include": [
+        "./src/*"
+    ],
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "strict": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "jsx": "react",
+        "module": "ESNext"
+    }
+}

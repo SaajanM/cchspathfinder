@@ -1,0 +1,31 @@
+.appTitle {
+  display: flex;
+  position: absolute;
+  height: min(10vh, 10vw);
+  width: auto;
+  flex-direction: row;
+  right: 1.2rem;
+  top: 1.2rem;
+  opacity: 0.5;
+  user-select: none;
+  z-index: 10;
+}
+.appImage {
+  flex: 1 1 auto;
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 0.2rem;
+}
+.appTextContainer {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  color: #002049;
+  line-height: 100%;
+  text-align: center;
+}
+.appText {
+  flex: 0 0 auto;
+  font-weight: bold;
+  font-size: larger;
+}
