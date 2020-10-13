@@ -13,10 +13,6 @@ function drawAllPaths(
   ctx: CanvasRenderingContext2D,
   paths: [PathArray, PathArray]
 ) {
-  ctx.beginPath();
-  ctx.moveTo(0, 0);
-  ctx.lineTo(1767 / 2, 1336 / 2);
-  ctx.stroke();
   ctx.globalAlpha = 1;
   ctx.font = "bold italic 36px Calibri";
   let colors = [
