@@ -41,7 +41,7 @@ function drawAllPaths(
       ctx.fillStyle = colors[i * currDay.length + index];
 
       ctx.fillText(
-        `Period ${from}🠢 ${to}: ~${Math.round(weight)} ft.`,
+        `Period ${from}\u{1F822} ${to}: ~${Math.round(weight)} ft.`,
         20 + 360 * i,
         1020 + 32 + 65 * index
       );
