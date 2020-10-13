@@ -13,6 +13,10 @@ function drawAllPaths(
   ctx: CanvasRenderingContext2D,
   paths: [PathArray, PathArray]
 ) {
+  ctx.beginPath();
+  ctx.moveTo(0, 0);
+  ctx.lineTo(1767 / 2, 1336 / 2);
+  ctx.stroke();
   ctx.globalAlpha = 1;
   ctx.font = "bold italic 36px Calibri";
   let colors = [
@@ -125,6 +129,7 @@ export default function (props: Props) {
               let ctx = canvasRef.getContext("2d") as CanvasRenderingContext2D;
               ctx.scale(rect.height / rect.width, rect.height / rect.width);
               ctx.scale(scale, scale);
+              ctx.scale(window.innerWidth / 1366, window.innerWidth / 1366);
               drawAllPaths(ctx, props.pathsToDraw);
             }}
             style={{
