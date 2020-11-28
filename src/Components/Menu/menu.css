@@ -89,10 +89,9 @@
 }
 .toggleOptions {
   display: flex;
-  width: 100%;
+  width: 95%;
   justify-content: space-between;
   margin-bottom: 1rem;
-  margin-right: 1.5rem;
 }
 .options {
   display: flex;
